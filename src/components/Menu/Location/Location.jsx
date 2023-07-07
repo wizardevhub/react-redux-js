@@ -6,7 +6,7 @@ export const Location = () => {
 	return (
 		<div className='locationContainer'>
 			<motion.p className='location' inital='init' animate='init' whileHover='hover' whileTap='hover'>
-				Located in <span>Tokyo, Japan</span>
+				Located in <span>Helsinki, Finland</span>
 				{/* <motion.span className='locationMap' variants={mapAnim}></motion.span> */}
 			</motion.p>
 		</div>

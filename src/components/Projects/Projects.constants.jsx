@@ -1,63 +1,56 @@
 import webLink from '../../Assets/images/links/globe2.svg';
-import kentmaster from '../../Assets/images/projects/kentmaster.png';
-import foliovision from '../../Assets/images/projects/foliovision.png';
-import neon from '../../Assets/images/projects/neon.png';
-import getzash from '../../Assets/images/projects/getzash.png';
-import halalplates from '../../Assets/images/projects/halalplates.png';
-import getorchard from '../../Assets/images/projects/getorchard.png';
-import joinscarlett from '../../Assets/images/projects/joinscarlett.png';
-import safuu from '../../Assets/images/projects/safuu.png';
 import furio from '../../Assets/images/projects/furio.png';
 import safehavendefi from '../../Assets/images/projects/safehavendefi.png';
 import o5o from '../../Assets/images/projects/o5o.png';
 import kingflokiworld from '../../Assets/images/projects/kingflokiworld.png';
 import panwallet from '../../Assets/images/projects/panwallet.png';
 import spectrocoin from '../../Assets/images/projects/spectrocoin.png';
+import ottokasino from '../../Assets/images/projects/ottokasino.png'
+import jeanfrancoisbury from '../../Assets/images/projects/jeanfrancoisbury.png'
+import seamaf from '../../Assets/images/projects/seamaf.png'
+import zenventures from '../../Assets/images/projects/zenventures.png'
+import schoolyardsnacks from '../../Assets/images/projects/schoolyardsnacks.png'
+import metavrse from '../../Assets/images/projects/metavrse.png'
+import imangu from '../../Assets/images/projects/imangu.png'
+import safuu from '../../Assets/images/projects/safuu.png'
 
 export const web = [
 	{
-		name: 'Kentmaster',
-		cover: kentmaster,
-		links: [{ icon: webLink, link: 'https://kentmaster.com.au/' }],
+		name: 'ottokasino(React, Redux)',
+		cover: ottokasino,
+		links: [{ icon: webLink, link: 'https://www.ottokasino.com/' }],
 	},
 	{
-		name: 'Foliovision',
-		cover: foliovision,
-		links: [{ icon: webLink, link: 'https://foliovision.com/' }],
+		name: 'jeanfrancoisbury (React, Redux)',
+		cover: jeanfrancoisbury,
+		links: [{ icon: webLink, link: 'https://www.jeanfrancoisbury.com' }],
 	},
 	{
-		name: 'Neon',
-		cover: neon,
-		links: [{ icon: webLink, link: 'https://neonlink.io/' }],
+		name: 'seamaf (Laravel, BootStrap, ecommerce)',
+		cover: seamaf,
+		links: [{ icon: webLink, link: 'https://seamaf.com' }],
 	},
 	{
-		name: 'Getzash',
-		cover: getzash,
-		links: [
-			{ icon: webLink, link: 'http://getzash.com' },
-		],
+		name: 'zenventures (Vue.js, Apache, php)',
+		cover: zenventures,
+		links: [{ icon: webLink, link: 'https://zenventures.co.za' }],
 	},
 	{
-		name: 'Halalplates',
-		cover: halalplates,
-		links: [
-			{ icon: webLink, link: 'https://halalplates.com/' },
-		],
+		name: 'schoolyardsnacks (Shopify)',
+		cover: schoolyardsnacks,
+		links: [{ icon: webLink, link: 'https://schoolyardsnacks.com' }],
 	},
 	{
-		name: 'Getorchard',
-		cover: getorchard,
-		links: [
-			{ icon: webLink, link: 'https://getorchard.com/' },
-		],
+		name: 'metavrse (WordPress, SEO, Open Graph, Chartjs)',
+		cover: metavrse,
+		links: [{ icon: webLink, link: 'https://metavrse.com' }],
 	},
 	{
-		name: 'Joinscarlett',
-		cover: joinscarlett,
-		links: [
-			{ icon: webLink, link: 'https://joinscarlett.co.uk/' },
-		],
+		name: 'imangu (CMS, Drupal 9)',
+		cover: imangu,
+		links: [{ icon: webLink, link: 'https://imangu.dk/' }],
 	},
+
 ];
 
 export const blockchain = [

@@ -3,7 +3,8 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import { motion, AnimateSharedLayout, AnimatePresence } from 'framer-motion';
 import { Background, generateBackgroundIcons, Menu, Welcome, About, Skills, Projects, Education } from './components';
 import { useGaTracker } from './helpers/useGaTracker';
-import Snowfall from 'react-snowfall';
+import ReactSnowstorm from 'react-snowstorm';
+
 
 const App = () => {
 	const location = useLocation();
@@ -19,7 +20,14 @@ const App = () => {
 
 	return (
 		<div className='App'>
-			<Snowfall />
+			<ReactSnowstorm
+				flakeCount={100}
+				flakeColor="#ffffff"
+				flakeHeight={100}
+				flakeWidth={10}
+				flakesMax={200}
+				useTwinkleEffect={true}
+			/>
 			<AnimateSharedLayout>
 				<AnimatePresence exitBeforeEnter>
 					{hasLoaded ? (

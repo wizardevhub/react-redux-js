@@ -1,1 +1,1 @@
-export const name = 'William Jones'
+export const name = 'Sven Rony'

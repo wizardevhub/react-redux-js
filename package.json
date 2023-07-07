@@ -20,6 +20,8 @@
 		"react-ga4": "^1.4.1",
 		"react-router-dom": "^6.3.0",
 		"react-snowfall": "^1.2.1",
+		"react-snowstorm": "^0.0.3",
+		"react-tsparticles": "^2.10.1",
 		"sass": "^1.45.1"
 	},
 	"scripts": {
