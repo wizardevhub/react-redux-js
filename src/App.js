@@ -20,6 +20,7 @@ const App = () => {
 
 	return (
 		<div className='App'>
+			<></>
 			<ReactSnowstorm
 				flakeCount={100}
 				flakeColor="#ffffff"
